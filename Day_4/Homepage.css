@@ -1,0 +1,10 @@
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100lh;
+    background: url('..//src/components/homepagebg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
