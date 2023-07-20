@@ -1,0 +1,32 @@
+.taxslabcontent {
+    margin-left: 40px;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid rgb(224, 167, 9);
+    box-shadow: 0 0 20px rgb(224, 167, 9);
+    padding: 40px 30px 30px 30px;
+    margin-right: 40px;
+    margin-top: 140px;
+}
+.headingtaxslab{
+    text-align: center;
+}
+.taximage{
+    margin-left: 20px;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid rgb(224, 167, 9);
+    box-shadow: 0 0 20px rgb(224, 167, 9);
+    padding: 10px 10px 10px 10px;
+    margin-right: 10px;
+    margin-top: 140px;
+    float: center;
+    position: relative;
+
+}
+.taximage img {
+    width: 250px;
+    height: 250px;
+    position:relative;
+    left: 350px;
+}
