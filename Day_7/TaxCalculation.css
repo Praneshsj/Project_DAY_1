@@ -1,0 +1,185 @@
+/* .container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calculate-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.result {
+  font-weight: bold;
+  margin-top: 16px;
+
+}
+/* .Calcbtn{
+  background-color: rgb(209, 139, 33);
+  
+} */
+/* .calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.select-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.select-dropdown {
+  padding: 5px;
+}
+
+.calculate-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calculate-button:hover {
+  background-color: #45a049;
+}
+
+.result-message {
+  margin-top: 20px;
+  font-weight: bold;
+} */
+ 
+ .con
+ {
+     margin-left: 4rem;
+     box-sizing: content-box;  
+     width: 800px;
+     height: 770px;
+     padding: 30px;  
+     border: 2px solid rgb(218, 213, 213);
+     background-color: #eae5e5d9;
+ 
+ }
+ .side_bar
+ {
+    
+     margin-left: 4rem;
+     box-sizing: content-box;  
+     width: 380px;
+     height: 320px;
+     padding: 30px;  
+     border: 2px solid rgb(218, 213, 213);
+     background-color: #9fd2ccd9;
+ }
+ 
+ .con>h4
+ {
+    color:rgb(93, 221, 183);
+    list-style: circle;
+ }
+ #outlined-select-currency-native
+ {
+     margin-left: 4rem;
+ }
+ #outlined-select-native
+ {
+     margin-left: 10rem;
+ 
+ }
+ 
+ .flex-container{
+     display: flex;
+     flex-direction: row;
+     color:aliceblue;
+   }
+ .flex-container > a
+  {
+     /* background-color: rgb(103, 186, 211); */
+     border: 2px solid black;
+     width: 200px;
+     margin: 1px;
+     text-align: center;
+     line-height: 35px;
+     text-align: center;
+ }
+ .flex-container > a:active
+  {
+     background-color: rgb(103, 186, 211);
+     color:black;
+     width: max-content;
+ }
+ 
+ 
+ .btn_back 
+ {
+     margin-left: 8rem;
+     /* margin-bottom: -1rem; */
+   
+ }
+ .btn_rev
+ {
+     margin-left: 40rem;
+     padding-bottom:-20px;
+ }
+ input[type=number], select {
+     width: 40%;
+     padding: 12px 20px;
+     margin: 8px 10px;
+     display: inline-block;
+     border: 1px solid #c4baba;
+     border-radius: 4px;
+     box-sizing: border-box;
+   }
