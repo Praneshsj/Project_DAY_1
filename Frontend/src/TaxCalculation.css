@@ -1,0 +1,671 @@
+/* .container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calculate-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.result {
+  font-weight: bold;
+  margin-top: 16px;
+
+}
+/* .Calcbtn{
+  background-color: rgb(209, 139, 33);
+  
+} */
+/* .calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.select-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.select-dropdown {
+  padding: 5px;
+}
+
+.calculate-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calculate-button:hover {
+  background-color: #45a049;
+}
+
+.result-message {
+  margin-top: 20px;
+  font-weight: bold;
+} */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+ 
+ /* .con
+ {
+     margin-left: 4rem;
+     box-sizing: content-box;  
+     width: 800px;
+     height: 770px;
+     padding: 30px;  
+     border: 2px solid rgb(218, 213, 213);
+     background-color: #eae5e5d9;
+ 
+ }
+ .side_bar
+ {
+    
+     margin-left: 4rem;
+     box-sizing: content-box;  
+     width: 380px;
+     height: 320px;
+     padding: 30px;  
+     border: 2px solid rgb(218, 213, 213);
+     background-color: #9fd2ccd9;
+ }
+ 
+ .con>h4
+ {
+    color:rgb(93, 221, 183);
+    list-style: circle;
+ }
+ #outlined-select-currency-native
+ {
+     margin-left: 4rem;
+ }
+ #outlined-select-native
+ {
+     margin-left: 10rem;
+ 
+ }
+ 
+ .flex-container{
+     display: flex;
+     flex-direction: row;
+     color:aliceblue;
+   }
+ .flex-container > a
+  {
+     /* background-color: rgb(103, 186, 211); */
+     /* border: 2px solid black;
+     width: 200px;
+     margin: 1px;
+     text-align: center;
+     line-height: 35px;
+     text-align: center;
+ }
+ .flex-container > a:active
+  {
+     background-color: rgb(103, 186, 211);
+     color:black;
+     width: max-content;
+ }
+ 
+ 
+ .btn_back 
+ {
+     margin-left: 8rem;
+     /* margin-bottom: -1rem; */
+   
+ /* }
+ .btn_rev
+ {
+     margin-left: 40rem;
+     padding-bottom:-20px;
+ }
+ input[type=number], select {
+     width: 40%;
+     padding: 12px 20px;
+     margin: 8px 10px;
+     display: inline-block;
+     border: 1px solid #c4baba;
+     border-radius: 4px;
+     box-sizing: border-box;
+   } */ 
+   /* TaxCalculation.css */
+
+/* .con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+.side_bar {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.side_bar h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+pre {
+  margin: 0;
+}
+
+.btn_back,
+.btn_rev {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn_back Button {
+  background-color: #333;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.btn_rev Button {
+  background-color: #ddd;
+  color: #333;
+}
+
+.btn_back Button:hover,
+.btn_rev Button:hover {
+  background-color: #444;
+}
+
+.note {
+  background-color: #ffe6cc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.flex-container div {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.flex-container a {
+  text-decoration: none;
+  color: #333;
+}
+
+.flex-container div:hover {
+  background-color: #f1f1f1;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 550px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Adjust the layout for smaller screens */
+/* @media (max-width: 768px) {
+  .con {
+    flex-direction: column;
+  }
+
+  .side_bar {
+    width: 100%;
+  } */
+/* }  */
+/* .con
+{
+    margin-left: 4rem;
+    box-sizing: content-box;  
+    width: 800px;
+    height: 770px;
+    padding: 30px;  
+    border: 2px solid rgb(218, 213, 213);
+    background-color: #eae5e5d9;
+
+}
+.side_bar
+{
+   
+    margin-left: 4rem;
+    box-sizing: content-box;  
+    width: 380px;
+    height: 400px;
+    padding: 30px;  
+    border: 2px solid rgb(218, 213, 213);
+    background-color: #9fd2ccd9;
+}
+
+.con>h4
+{
+   color:rgb(163, 111, 71);
+   list-style: circle;
+}
+#outlined-select-currency-native
+{
+    margin-left: 4rem;
+}
+#outlined-select-native
+{
+    margin-left: 10rem;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    color:aliceblue;
+  }
+.flex-container > a
+ {
+    /* background-color: rgb(103, 186, 211); */
+    /* border: 2px solid black;
+    width: 200px;
+    margin: 1px;
+    text-align: center;
+    line-height: 35px;
+    text-align: center;
+}
+.flex-container > a:active
+ {
+    /* background-color: rgb(103, 186, 211); */
+    /* color:black; */
+/* }
+
+
+.btn_back 
+{
+    margin-left: 8rem;
+    /* margin-bottom: -1rem; */
+  
+/* }
+.btn_rev
+{
+    margin-left: 40rem;
+    padding-bottom:-20px;
+}
+input[type=number], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #c4baba;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }  */
+/* TaxCalculationAlternative.css */
+
+/* .con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.side_bar {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 750px;
+  margin-top: 20px;
+}
+
+.side_bar h3 {
+  margin-top: 0;
+  text-align: center;
+  color: #333;
+}
+
+pre {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  color: #333;
+}
+
+.btn_back,
+.btn_rev {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn_back Button {
+  background-color: #333;
+  color: #fff;
+  margin-right: 10px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_rev Button {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_back Button:hover,
+.btn_rev Button:hover {
+  background-color: #444;
+}
+
+.note {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.flex-container div {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.flex-container a {
+  text-decoration: none;
+  color: #333;
+}
+
+.flex-container div:hover {
+  background-color: #f1f1f1;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="number"] {
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  color: #333;
+}
+
+/* Adjust the layout for smaller screens */
+/* @media (max-width: 768px) {
+  .con {
+    flex-direction: column;
+  }
+
+  .side_bar {
+    width: 100%;
+  }
+}  */
+/* Styles for the container */
+.con {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for the side bar */
+.side_bar {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for buttons */
+.btn_back, .btn_rev {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styles for input fields */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles for headings */
+h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+/* Styles for the warning icon */
+.note {
+  display: flex;
+  align-items: center;
+  color: #ff0000;
+}
+
+/* Styles for the download button */
+.Button {
+  text-decoration: none;
+  background-color: #1976D2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for the table */
+pre {
+  margin-bottom: 30px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  border-collapse: collapse;
+}
+
+pre p {
+  margin: 5px 0;
+}
+
+pre hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 8px 0;
+}
+/* Styles for the container */
+.con {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for the side bar */
+.side_bar {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for buttons */
+.btn_back,
+.btn_rev {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styles for input fields */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles for headings */
+h2,
+h3,
+h4 {
+  margin-bottom: 10px;
+}
+
+/* Styles for the warning icon */
+.note {
+  display: flex;
+  align-items: center;
+  color: #ff0000;
+}
+
+/* Styles for the download button */
+.Button {
+  text-decoration: none;
+  background-color: #1976D2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for the table */
+pre {
+  margin-bottom: 30px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  border-collapse: collapse;
+}
+
+pre p {
+  margin: 5px 0;
+}
+
+pre hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 8px 0;
+}
+
+/* Responsive styles using media queries */
+@media screen and (max-width: 600px) {
+  /* For screens up to 600px wide */
+  .con {
+    padding: 10px;
+  }
+
+  .side_bar {
+    max-width: 100%;
+  }
+
+  .btn_back,
+  .btn_rev {
+    flex-direction: column;
+  }
+}
